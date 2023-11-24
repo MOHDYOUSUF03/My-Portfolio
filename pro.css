@@ -1,0 +1,42 @@
+body {
+    font-family: 'Playball', cursive;
+    opacity: 0.5;
+    margin: 0px;
+    padding: 0px;
+    background: url(img6.jpg)
+
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+   /* background-color: rgb(198, 198, 198);
+    /* border: 2px solid green; */
+    /* color: black; */
+
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(151, 151, 151);
+}
